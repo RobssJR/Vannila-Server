@@ -1,5 +1,3 @@
-@echo off
-
 rem Comando para executar o paper.jar
 set command=java -Xms6G -Xmx6G -jar paper.jar --nogui
 
