@@ -1,3 +1,6 @@
+rem Comando para atualizar os arquivos do repositório
+git pull
+
 rem Comando para executar o paper.jar
 set command=java -Xms6G -Xmx6G -jar paper.jar --nogui
 
@@ -12,7 +15,8 @@ if errorlevel 1 goto process_ended
 goto waitloop
 
 :process_ended
-rem Executa o comando de commit no git
-set commit_message=Commit automático ao fechar o paper.jar
-git commit -am "%commit_message%"
-pause
+rem Comando para atualizar o repositório novamente
+git pull
+git add .
+git commit -m "Atualização após a execução do paper.jar"
+git push
