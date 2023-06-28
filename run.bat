@@ -15,3 +15,4 @@ goto waitloop
 rem Executa o comando de commit no git
 set commit_message=Commit automático ao fechar o paper.jar
 git commit -am "%commit_message%"
+pause
