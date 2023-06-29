@@ -1,244 +1,45 @@
-[19:43:12] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:43:14] [ServerMain/INFO]: Loaded 7 recipes
-[19:43:14] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[19:43:14] [Server thread/INFO]: Loading properties
-[19:43:14] [Server thread/INFO]: This server is running Paper version git-Paper-47 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: aea9cdd)
-[19:43:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:43:14] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:43:15] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[19:12:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:12:07] [ServerMain/INFO]: Loaded 7 recipes
+[19:12:07] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[19:12:07] [Server thread/INFO]: Loading properties
+[19:12:07] [Server thread/INFO]: This server is running Paper version git-Paper-47 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: aea9cdd)
+[19:12:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:12:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:12:08] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[19:43:15] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
-[19:43:15] [Server thread/INFO]: Default game type: SURVIVAL
-[19:43:15] [Server thread/INFO]: Generating keypair
-[19:43:15] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:43:15] [Server thread/INFO]: Using default channel type
-[19:43:15] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[19:43:15] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[19:43:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:43:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:43:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:43:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:43:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:43:15] [Server thread/INFO]: Preparing level "world"
-[19:43:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:43:16] [Server thread/INFO]: Time elapsed: 312 ms
-[19:43:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:43:16] [Server thread/INFO]: Time elapsed: 36 ms
-[19:43:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:43:16] [Server thread/INFO]: Time elapsed: 27 ms
-[19:43:16] [Server thread/INFO]: Running delayed init tasks
-[19:43:16] [Server thread/INFO]: Done (1.949s)! For help, type "help"
-[19:43:16] [Server thread/INFO]: Timings Reset
-[19:43:43] [User Authenticator #0/INFO]: UUID of player RukasuDesu is 985ba8cc-7bd4-3008-a633-fea3e2d7c11a
-[19:43:43] [Server thread/INFO]: RukasuDesu joined the game
-[19:43:43] [Server thread/INFO]: RukasuDesu[/26.12.214.76:1416] logged in with entity id 55 at ([world]389.67925645472445, 63.0, 8.477551158646957)
-[19:43:58] [User Authenticator #0/INFO]: UUID of player _main_py is 1675586e-f662-3fb4-b6a0-bd0e1801883c
-[19:43:58] [Server thread/INFO]: _main_py joined the game
-[19:43:58] [Server thread/INFO]: _main_py[/26.220.11.217:49955] logged in with entity id 231 at ([world]720.8580638737881, 64.8500000178814, -258.82034379339603)
-[19:45:24] [Server thread/INFO]: Made _main_py a server operator
-[19:45:51] [Server thread/INFO]: _main_py issued server command: /gamerule playersSleepingPercentage 33
-[19:45:51] [Server thread/INFO]: [_main_py: Gamerule playersSleepingPercentage is now set to: 33]
-[19:46:00] [Server thread/INFO]: Made _main_py no longer a server operator
-[19:46:08] [Server thread/INFO]: Made _main_py a server operator
-[19:46:12] [Server thread/INFO]: _main_py issued server command: /gamerule playersSleepingPercentage 20
-[19:46:12] [Server thread/INFO]: [_main_py: Gamerule playersSleepingPercentage is now set to: 20]
-[19:46:15] [Server thread/INFO]: Made _main_py no longer a server operator
-[19:47:12] [Server thread/INFO]: Made _main_py a server operator
-[19:47:20] [Server thread/INFO]: _main_py issued server command: /difficulty hard
-[19:47:20] [Server thread/INFO]: [_main_py: The difficulty has been set to Hard]
-[19:47:32] [Server thread/INFO]: Made _main_py no longer a server operator
-[19:52:21] [Server thread/INFO]: _main_py has made the advancement [A Seedy Place]
-[19:56:59] [Server thread/INFO]: _main_py has made the advancement [Isn't It Iron Pick]
-[20:06:19] [Server thread/INFO]: _main_py has made the advancement [Acquire Hardware]
-[20:07:56] [Server thread/INFO]: _main_py was shot by Skeleton
-[20:08:30] [Server thread/INFO]: _main_py was shot by Skeleton
-[20:09:23] [Server thread/INFO]: _main_py has made the advancement [Not Today, Thank You]
-[20:09:33] [Server thread/INFO]: _main_py was shot by Skeleton
-[20:10:31] [Server thread/INFO]: _main_py was slain by Zombie
-[20:11:25] [Server thread/INFO]: _main_py was shot by Skeleton
-[20:44:19] [Server thread/INFO]: _main_py has made the advancement [Suit Up]
-[20:58:14] [Async Chat Thread - #1/INFO]: [Not Secure] <RukasuDesu> tricot
-[20:58:43] [Async Chat Thread - #0/INFO]: [Not Secure] <RukasuDesu> tricot - POOL
-[21:02:02] [Async Chat Thread - #3/INFO]: [Not Secure] <RukasuDesu> >,
-[21:02:05] [Async Chat Thread - #2/INFO]: [Not Secure] <RukasuDesu> >,<
-[21:03:20] [Async Chat Thread - #5/INFO]: [Not Secure] <RukasuDesu> Lamp
-[21:04:09] [Async Chat Thread - #4/INFO]: [Not Secure] <RukasuDesu> yumeutsutsu
-[21:04:35] [Async Chat Thread - #5/INFO]: [Not Secure] <RukasuDesu> yumeutsutsu
-[21:06:17] [Server thread/INFO]: Villager EntityVillager['Villager'/297, uuid='df3d1978-3555-4c19-950f-b198a3c8e143', l='ServerLevel[world]', x=667.25, y=64.00, z=-313.30, cpos=[41, -20], tl=120669, v=true] died, message: 'Villager hit the ground too hard'
-[21:09:52] [Async Chat Thread - #6/INFO]: [Not Secure] <RukasuDesu> the stalin
-[21:11:01] [Async Chat Thread - #9/INFO]: [Not Secure] <_main_py> Galileo Galilei - Aoi Shiori
-[21:12:51] [Async Chat Thread - #12/INFO]: [Not Secure] <_main_py> 656 63 -304
-[21:25:49] [Server thread/INFO]: _main_py has made the advancement [The Parrots and the Bats]
-[21:34:49] [Async Chat Thread - #14/INFO]: [Not Secure] <RukasuDesu> Ginger Root
-[21:40:28] [Async Chat Thread - #16/INFO]: [Not Secure] <RukasuDesu> Ginger Root
-[21:43:32] [Server thread/INFO]: RukasuDesu has made the advancement [Suit Up]
-[21:43:49] [Server thread/INFO]: Villager EntityVillager['Farmer'/279, uuid='93961bbb-df1c-4f29-988c-042c0bf214f7', l='ServerLevel[world]', x=765.77, y=81.25, z=-260.47, cpos=[47, -17], tl=166162, v=true] died, message: 'Farmer was slain by Zombie'
-[21:44:24] [Server thread/INFO]: RukasuDesu has made the advancement [Best Friends Forever]
-[21:57:44] [Async Chat Thread - #18/INFO]: [Not Secure] <RukasuDesu> a
-[21:57:48] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-47 (MC: 1.20.1) ---
-[21:57:48] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[21:57:48] [Paper Watchdog Thread/ERROR]: ------------------------------
-[21:57:48] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[21:57:48] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[21:57:48] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[21:57:48] [Paper Watchdog Thread/ERROR]: Entity UUID: 985ba8cc-7bd4-3008-a633-fea3e2d7c11a
-[21:57:48] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (1364.3251443643526, 60.25876705176827, -541.7768462261231)
-[21:57:48] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.024961315844865335, 0.0) (in blocks per tick)
-[21:57:48] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[1364.0251443524317, 60.25876705176827, -542.076846238044] -> [1364.6251443762735, 62.05876700408455, -541.4768462142022]
-[21:57:48] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 288549
-[21:57:48] [Paper Watchdog Thread/ERROR]: ------------------------------
-[21:57:48] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[21:57:48] [Paper Watchdog Thread/ERROR]: 	PID: 42 | Suspended: false | Native: false | State: RUNNABLE
-[21:57:48] [Paper Watchdog Thread/ERROR]: 	Stack:
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.synth.ImprovedNoise.noise(ImprovedNoise.java:63)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.synth.BlendedNoise.compute(BlendedNoise.java:108)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:252)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:248)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.compute(DensityFunctions.java:867)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:261)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.fillArray(DensityFunctions.java:301)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.fillArray(DensityFunctions.java:847)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$TransformerWithContext.fillArray(DensityFunctions.java:1125)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$NoiseInterpolator.fillArray(NoiseChunk.java:744)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.fillSlice(NoiseChunk.java:205)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.advanceCellX(NoiseChunk.java:223)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:174)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:121)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:714)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:100)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:154)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:185)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:177)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$7726/0x0000000801e650e0.get(Unknown Source)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$SynchronisedLong2BooleanMap.getOrCompute(StructureCheck.java:133)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:176)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:167)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:302)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:272)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:201)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:2040)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:60)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4549/0x00000008015b4ff8.apply(Unknown Source)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$6766/0x0000000801d2cc38.accept(Unknown Source)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:100)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:119)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:134)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:163)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:157)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:165)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1559)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1177)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:581)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1960)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$6543/0x0000000801cc5ec0.run(Unknown Source)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1339)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1316)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1309)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1287)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4688/0x000000080162cc30.run(Unknown Source)
-[21:57:48] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
-[21:57:48] [Paper Watchdog Thread/ERROR]: ------------------------------
-[21:57:48] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[21:57:48] [Paper Watchdog Thread/ERROR]: ------------------------------
-[21:57:50] [Async Chat Thread - #17/INFO]: [Not Secure] <RukasuDesu> a
-[21:57:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11972ms or 239 ticks behind
-[21:57:50] [Server thread/WARN]: _main_py moved too quickly! -0.2032859188979046,6.753199980521202,-7.528158536696424
-[21:57:51] [Async Chat Thread - #18/INFO]: [Not Secure] <_main_py> dd
-[21:59:25] [Async Chat Thread - #20/INFO]: [Not Secure] <RukasuDesu> Overture 1812 Tchaikovsky
-[22:03:34] [Async Chat Thread - #21/INFO]: [Not Secure] <RukasuDesu> Married Life
-[22:04:14] [Server thread/INFO]: RukasuDesu has made the advancement [Diamonds!]
-[22:06:55] [Async Chat Thread - #25/INFO]: [Not Secure] <RukasuDesu> 2305 -962
-[22:08:10] [Server thread/INFO]: Villager EntityVillager['Villager'/50537, uuid='1ebeda10-ecf6-4fa3-a400-eb6022282b75', l='ServerLevel[world]', x=2767.28, y=66.56, z=-877.63, cpos=[172, -55], tl=191, v=true] died, message: 'Villager suffocated in a wall'
-[22:08:55] [Server thread/INFO]: RukasuDesu has made the advancement [Ice Bucket Challenge]
-[22:13:52] [Async Chat Thread - #27/INFO]: [Not Secure] <RukasuDesu> 4033 -928
-[22:16:58] [Server thread/INFO]: RukasuDesu issued server command: /seed
-[22:21:38] [Server thread/INFO]: RukasuDesu has made the advancement [Local Brewery]
-[22:34:42] [Server thread/INFO]: _main_py was impaled by Drowned
-[22:35:20] [Server thread/INFO]: _main_py was impaled by Drowned
-[22:45:55] [Async Chat Thread - #28/INFO]: [Not Secure] <RukasuDesu> stop
-[22:49:07] [Server thread/WARN]: RukasuDesu moved too quickly! -5.54528605119458,-1.4524514780759716,45.63802900970484
-[22:55:25] [Async Chat Thread - #30/INFO]: [Not Secure] <RukasuDesu> 07 - God Hates Us
-[22:55:37] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> 11:11
-[22:56:00] [Async Chat Thread - #30/INFO]: [Not Secure] <RukasuDesu> Aaron Smith - Dancin
-[22:56:52] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> Agust D SUGA
-[22:57:08] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> Airplane J-hope
-[22:57:20] [Async Chat Thread - #30/INFO]: [Not Secure] <RukasuDesu> Alec Benjamin - Paper crown
-[22:57:58] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> Animal - Alec B
-[22:58:08] [Async Chat Thread - #30/INFO]: [Not Secure] <RukasuDesu> B.A.P Wake me Up
-[22:58:23] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> BeamerBoy - lil peep
-[22:58:36] [Async Chat Thread - #30/INFO]: [Not Secure] <RukasuDesu> Best of me
-[22:58:56] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> big city blues w coldhart
-[22:59:02] [Async Chat Thread - #30/INFO]: [Not Secure] <RukasuDesu> BIG BANG
-[22:59:04] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> FXX
-[22:59:07] [Async Chat Thread - #30/INFO]: [Not Secure] <RukasuDesu> FXXIT
-[22:59:14] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> Spring Day bts
-[22:59:22] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> Agust D
-[22:59:32] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> Cant Get over you - joji
-[22:59:58] [Async Chat Thread - #32/INFO]: [Not Secure] <RukasuDesu> Car Radio Twenty one pilots
-[23:00:10] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> Chop Suey!
-[23:00:18] [Async Chat Thread - #32/INFO]: [Not Secure] <RukasuDesu> Day6 I wait
-[23:00:29] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> Day 6 shoot me
-[23:01:10] [Async Chat Thread - #32/INFO]: [Not Secure] <RukasuDesu> Daydream J-Hope
-[23:01:53] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> The Death of Me asking alexandria
-[23:02:11] [Async Chat Thread - #32/INFO]: [Not Secure] <RukasuDesu> DNA brs
-[23:02:13] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> brtd
-[23:02:15] [Async Chat Thread - #32/INFO]: [Not Secure] <RukasuDesu> bts
-[23:02:23] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> Exo Love Shot
-[23:02:32] [Async Chat Thread - #32/INFO]: [Not Secure] <RukasuDesu> EXo koko bop
-[23:03:17] [Async Chat Thread - #31/INFO]: [Not Secure] <RukasuDesu> ghostemane - mercury
-[23:03:27] [Server thread/INFO]: _main_py lost connection: Disconnected
-[23:03:27] [Server thread/INFO]: _main_py left the game
-[23:03:28] [Async Chat Thread - #32/INFO]: [Not Secure] <RukasuDesu> gorillaz Clint eastwood
-[23:04:47] [Server thread/INFO]: Stopping server
-[23:04:47] [Server thread/INFO]: Saving players
-[23:04:47] [Server thread/INFO]: RukasuDesu lost connection: Server closed
-[23:04:47] [Server thread/INFO]: RukasuDesu left the game
-[23:04:47] [Server thread/INFO]: Saving worlds
-[23:04:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:04:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:04:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:04:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[23:04:49] [Server thread/INFO]: [ChunkHolderManager] Saved 2344 block chunks, 1369 entity chunks, 9 poi chunks in world 'world' in 1,90s
-[23:04:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:04:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:04:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[23:04:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[23:04:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[23:04:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 15 entity chunks, 0 poi chunks in world 'world_nether' in 0,00s
-[23:04:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:04:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:04:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[23:04:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[23:04:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[23:04:49] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
-[23:04:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:04:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:04:49] [Server thread/INFO]: Flushing Chunk IO
-[23:04:49] [Server thread/INFO]: Closing Thread Pool
-[23:04:49] [Server thread/INFO]: Closing Server
+[19:12:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[19:12:08] [Server thread/INFO]: Default game type: SURVIVAL
+[19:12:08] [Server thread/INFO]: Generating keypair
+[19:12:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:12:08] [Server thread/INFO]: Using default channel type
+[19:12:08] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:12:08] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:12:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:12:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:12:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:12:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:12:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:12:08] [Server thread/INFO]: Preparing level "world"
+[19:12:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:12:09] [Server thread/INFO]: Time elapsed: 295 ms
+[19:12:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:12:09] [Server thread/INFO]: Time elapsed: 29 ms
+[19:12:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:12:09] [Server thread/INFO]: Time elapsed: 25 ms
+[19:12:09] [Server thread/INFO]: Running delayed init tasks
+[19:12:09] [Server thread/INFO]: Done (1.769s)! For help, type "help"
+[19:12:09] [Server thread/INFO]: Timings Reset
+[19:12:20] [User Authenticator #0/INFO]: UUID of player _main_py is 1675586e-f662-3fb4-b6a0-bd0e1801883c
+[19:12:20] [Server thread/INFO]: _main_py joined the game
+[19:12:20] [Server thread/INFO]: _main_py[/26.220.11.217:54431] logged in with entity id 53 at ([world]667.1710128400395, 63.0, -303.2305389570319)
+[19:18:25] [Server thread/INFO]: _main_py lost connection: Disconnected
+[19:18:25] [Server thread/INFO]: _main_py left the game
+[19:21:28] [User Authenticator #1/INFO]: UUID of player _main_py is 1675586e-f662-3fb4-b6a0-bd0e1801883c
+[19:21:29] [Server thread/INFO]: _main_py joined the game
+[19:21:29] [Server thread/INFO]: _main_py[/26.220.11.217:54601] logged in with entity id 1314 at ([world]677.6873419511438, 16.0, -335.4961665765705)
+[19:21:41] [User Authenticator #1/INFO]: UUID of player RukasuDesu is 985ba8cc-7bd4-3008-a633-fea3e2d7c11a
+[19:21:41] [Server thread/INFO]: RukasuDesu joined the game
+[19:21:41] [Server thread/INFO]: RukasuDesu[/26.12.214.76:2163] logged in with entity id 1734 at ([world]-3180.1771523357606, 65.0, 53.30000001192093)
+[19:36:22] [Server thread/INFO]: _main_py lost connection: Disconnected
+[19:36:22] [Server thread/INFO]: _main_py left the game
