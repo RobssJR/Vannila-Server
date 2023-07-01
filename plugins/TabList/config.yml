@@ -7,33 +7,27 @@ hook:
 fake-players:
   enabled: false
 
-  # Do we count the added fake players to the %online-players% placeholder?
+  # Count the added fake players to the %online-players% placeholder?
   count-fake-players-to-online-players: false
 
 # If enabled, the gray color will not appear to other players when the player's game mode is spectator.
 # The gray color will only show for the spectator player.
-# Requires ProtocolLib!
 remove-gray-color-from-tab-in-spectator: false
 
-# true - does not count vanished players in %online-players% placeholder.
-# Requires Essentials, SuperVanish, PremiumVanish or CMI plugin!
+# If enabled, vanished players in %online-players% placeholder won't be counted.
+# Requires Essentials, SuperVanish, PremiumVanish or CMI plugin
 ignore-vanished-players-in-online-players: false
 
-# true - count vanished staff in %staff-online% placeholder,
-# but they need to have "tablist.onlinestaff" permission set.
-# false - does not count vanished staff in the %staff-online% placeholder
-# Requires Essentials, SuperVanish, PremiumVanish or CMI plugin!
+# If enabled, vanished players with "tablist.onlinestaff" permission added will be counted in %staff-online% placeholder
+# Requires Essentials, SuperVanish, PremiumVanish or CMI plugin
 count-vanished-staffs: true
 
 # Hide player from player list when a player is AFK?
-# Requires Essentials or CMI plugin!
+# Requires Essentials or CMI plugin
 hide-player-from-tab-when-afk: false
 
-# Hide all players from the player list?
-# This removes all players from the player list, but the player that has the
-# group set is retained as it is not changed during removal, so your group
-# will be restored if this option is disabled.
-# Requires ProtocolLib to fix view distance issue! (https://github.com/montlikadani/TabList/issues/147)
+# If enabled, all players will be removed from the player list, resulting to only
+# display the tablist with header and footer without players.
 hide-players-from-tablist: false
 
 # Different player list in different world.
@@ -54,16 +48,17 @@ per-world-player-list:
 # Placeholders formatting
 placeholder-format:
 
-  # When the player changes the AFK status, change his tablist name format?
+  # Applied when the player's afk state changed, this will result to include
+  # a prefix or suffix after or before the player name
   afk-status:
     enable: false
 
     # Should the AFK format display in right or left side?
-    # true - displays in right side
-    # false - displays in left side
+    # true - displays in right side (after the player name)
+    # false - displays in left side (before the player name)
     show-in-right-or-left-side: true
 
-    # Show player's group if the player is AFK?
+    # Also display player's group together with the afk status
     show-player-group: true
 
     # Format when the player is AFK.
@@ -110,32 +105,17 @@ placeholder-format:
     - '&6%tps% == 16.0'
     - '&c%tps% < 16.0'
 
-    # How many numbers do you want to display after "." in %tps% placeholder?
-    # The number should be higher than 0.
-    # Example: 3 = 20.14
+    # The amount of decimal to display after "." in %tps% placeholder
+    # The size should be higher than 0
+    # Example: 3 = 19.14
     size: 2
-
-  # Memory bar settings for %memory_bar% variable
-  memory-bar:
-    char: '|'
-    size: 80
-    colors:
-      used: '&c'
-      free: '&a'
-
-      # When the server memory less than 80
-      allocation: '&e'
-
-      # When the server memory is on critical level (less than 40) and some resource need memory to run.
-      released: '&6'
 
 # Enable changing of prefix & suffix in player list?
 change-prefix-suffix-in-tablist:
   enable: true
 
   # Refresh interval in server ticks.
-  # Set to 0 if you don't want to refresh the groups.
-  # If 0, then you will need to execute the /tl reload command to refresh the groups.
+  # Set to 0 to disable refreshing the groups automatically.
   refresh-interval: 4
 
   # Disable groups in these worlds.
@@ -151,12 +131,8 @@ change-prefix-suffix-in-tablist:
   sync-plugins-groups-with-tablist: true
 
   # Hide player's group in player list when the player is vanished?
-  # Requires Essentials, SuperVanish, PremiumVanish or CMI plugin!
+  # Requires Essentials, SuperVanish, PremiumVanish or CMI plugin
   hide-group-when-player-vanished: false
-
-  # Hide player's group in player list when the player is AFK?
-  # Requires Essentials or CMI plugin!
-  hide-group-when-player-afk: false
 
   # Do you want to assign global group to normal groups?
   # true - "globalGroupPrefix + normalGroupPrefix"
@@ -165,49 +141,66 @@ change-prefix-suffix-in-tablist:
 
   # Prefer player's primary Vault group when assigning tablist group from groups.yml?
   # true - player will be assigned their primary vault group where possible
-  # false - applies the group that has the higher priority in the permission plugin
+  # false - applies one of the group from the permission plugin
   prefer-primary-vault-group: true
+
+  # If true, groups will be sorted using LuckPerms weight if those are set.
+  # Groups with higher weight set, will appear first to the player.
+  # If the weights are not set or this option is disabled, the first group with higher priority will appear first.
+  use-luckperms-weight-to-order-groups-to-first-place: true
+
+  # Follow the name tag visibility for players to show the name tag above player or not,
+  # depending if a scoreboard team with visibility 'hidden' is exist.
+  # true - Follows the name tag visibility and hides if there is a scoreboard team created with visibility 'hidden'
+  # false - Always shows the name tag above player
+  followNameTagVisibility: false
 
 # Tablist objective types
 # Shows your current health (with life indicator), your current ping or any NUMBER placeholder
 # after the player's name (before the ping indicator).
 tablist-object-type:
-  enable: true
 
   # Types:
+  # none - disables tablist objects
   # ping - player's ping
   # health - player's health
-  # custom - custom placeholder
+  # custom - one of the number-ending placeholder
   type: ping
 
-  # Interval for objects refreshing in seconds.
+  # How often should it refresh the values in seconds?
+  # Set to 0 to disable refreshing automatically
   refresh-interval: 3
 
   # In these worlds the objects will not be displayed
   disabled-worlds:
   - testingWorld
-
-  # Objective settings
   object-settings:
-
-    # The player's health - displayed after the player's name.
     health:
-
-      # For these players the health will not be displayed
       restricted-players:
       - exampleplayer
       - players
 
-    # Custom placeholder - accepts only number-ending placeholders, like %level%.
+    # Custom placeholder - accepts only number-ending placeholders, like %level%
     custom:
       value: '%level%'
 
-# Check for updates?
+# Checks for plugin updates after server start
 check-update: true
 
-# Download new releases to "releases" folder?
-# This only works if the "check-update" is true.
+# Download new releases if updates found?
+# This only works if the "check-update" option is enabled.
 download-updates: true
 
-# Log plugin messages to console?
+# Plugin debug log messages
 logconsole: true
+
+# This option monitors server performance. If the server's TPS is less than the set value,
+# TabList will cancels all currently running schedulers to improve server performance.
+# TabList will not restart these schedulers (ie animations, group updates, etc.),
+# so you have to do it manually, by reconnecting to the server or by reloading the plugin.
+# At values below 8-5, TabList is almost unable to stop its own running processes,
+# as the server is already under a very heavy load.
+# The values should be between 5-18
+# If the value is below 5 or above 18, the default value will be 16.0
+# To disable this feature set to -1
+tps-performance-observation-value: -1.0
