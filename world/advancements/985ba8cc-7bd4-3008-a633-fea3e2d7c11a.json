@@ -195,6 +195,7 @@
       "minecraft:spider": "2023-07-01 00:47:04 -0300",
       "minecraft:creeper": "2023-06-28 20:12:28 -0300",
       "minecraft:husk": "2023-06-29 19:49:36 -0300",
+      "minecraft:piglin": "2023-07-01 12:50:00 -0300",
       "minecraft:zombie": "2023-06-25 22:20:40 -0300",
       "minecraft:drowned": "2023-06-25 22:41:11 -0300",
       "minecraft:zombie_villager": "2023-06-28 22:13:29 -0300"
@@ -3044,15 +3045,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mangrove_planks": {
-    "criteria": {
-      "has_logs": "2023-07-01 01:31:59 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
     "criteria": {
       "has_mangrove_roots": "2023-07-01 01:31:00 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_planks": {
+    "criteria": {
+      "has_logs": "2023-07-01 01:31:59 -0300"
     },
     "done": true
   },
@@ -3065,6 +3066,139 @@
   "minecraft:recipes/building_blocks/packed_mud": {
     "criteria": {
       "has_mud": "2023-07-01 01:33:54 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2023-07-01 12:44:42 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2023-07-01 12:49:15 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_mangrove_wood": {
+    "criteria": {
+      "has_log": "2023-07-01 12:26:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2023-07-01 12:49:15 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-07-01 12:25:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2023-07-01 12:49:03 -0300",
+      "minecraft:nether_wastes": "2023-07-01 12:48:27 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/mangrove_fence": {
+    "criteria": {
+      "has_planks": "2023-07-01 12:25:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2023-07-01 12:48:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-07-01 12:48:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_stairs": {
+    "criteria": {
+      "has_planks": "2023-07-01 12:25:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-07-01 12:25:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-07-01 12:25:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_sign": {
+    "criteria": {
+      "has_planks": "2023-07-01 12:25:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_button": {
+    "criteria": {
+      "has_planks": "2023-07-01 12:25:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_door": {
+    "criteria": {
+      "has_planks": "2023-07-01 12:25:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2023-07-01 12:26:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2023-07-01 12:49:15 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2023-07-01 12:49:15 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_slab": {
+    "criteria": {
+      "has_planks": "2023-07-01 12:25:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2023-07-01 12:32:02 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2023-07-01 12:49:15 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2023-07-01 12:49:15 -0300"
     },
     "done": true
   },
