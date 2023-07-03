@@ -2954,15 +2954,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_stained_glass": {
+  "minecraft:recipes/decorations/beehive": {
     "criteria": {
-      "has_glass": "2023-07-02 12:33:13 -0300"
+      "has_honeycomb": "2023-07-02 11:42:24 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+  "minecraft:recipes/decorations/honeycomb_block": {
     "criteria": {
-      "has_gold_block": "2023-07-02 12:38:25 -0300"
+      "has_honeycomb": "2023-07-02 11:42:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_on": {
+    "criteria": {
+      "wax_on": "2023-07-02 12:06:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2023-07-02 12:31:02 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-07-02 12:33:13 -0300"
     },
     "done": true
   },
@@ -3038,12 +3056,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/beehive": {
-    "criteria": {
-      "has_honeycomb": "2023-07-02 11:42:24 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2023-07-02 12:33:13 -0300"
@@ -3053,12 +3065,6 @@
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_glass": "2023-07-02 12:33:13 -0300"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/wax_on": {
-    "criteria": {
-      "wax_on": "2023-07-02 12:06:57 -0300"
     },
     "done": true
   },
@@ -3080,15 +3086,177 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/repeater": {
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
-      "has_redstone_torch": "2023-07-02 12:31:02 -0300"
+      "has_gold_block": "2023-07-02 12:38:25 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/honeycomb_block": {
+  "minecraft:recipes/misc/lime_dye": {
     "criteria": {
-      "has_honeycomb": "2023-07-02 11:42:24 -0300"
+      "has_white_dye": "2023-07-02 22:40:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2023-07-02 22:40:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2023-07-02 22:40:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2023-07-02 22:40:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2023-07-02 22:40:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2023-07-02 22:40:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_blue_dye": "2023-07-02 22:40:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2023-07-02 22:40:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_carpet": {
+    "criteria": {
+      "has_needed_dye": "2023-07-02 22:40:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2023-07-02 22:40:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2023-07-02 22:40:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_blue_dye": "2023-07-02 22:40:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2023-07-02 22:39:47 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_blue_dye": "2023-07-02 22:40:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2023-07-02 22:40:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool": {
+    "criteria": {
+      "has_needed_dye": "2023-07-02 22:40:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2023-07-02 22:40:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2023-07-02 22:49:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2023-07-02 22:40:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2023-07-02 22:40:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_white_dye": "2023-07-02 22:40:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_light_blue_dye": "2023-07-02 22:40:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_white_dye": "2023-07-02 22:40:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2023-07-02 22:40:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2023-07-02 22:40:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2023-07-02 22:49:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_white_dye": "2023-07-02 22:40:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_candle": {
+    "criteria": {
+      "has_light_blue_dye": "2023-07-02 22:40:43 -0300"
     },
     "done": true
   },
