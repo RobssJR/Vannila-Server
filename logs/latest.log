@@ -1,70 +1,171 @@
-[17:29:06] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:29:07] [ServerMain/INFO]: Loaded 7 recipes
-[17:29:08] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[17:29:08] [Server thread/INFO]: Loading properties
-[17:29:08] [Server thread/INFO]: This server is running Paper version git-Paper-47 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: aea9cdd)
-[17:29:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:29:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:29:08] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[13:09:39] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:09:42] [ServerMain/INFO]: Loaded 7 recipes
+[13:09:43] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[13:09:43] [Server thread/INFO]: Loading properties
+[13:09:43] [Server thread/INFO]: This server is running Paper version git-Paper-47 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: aea9cdd)
+[13:09:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:09:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:09:43] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[17:29:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
-[17:29:08] [Server thread/INFO]: Default game type: SURVIVAL
-[17:29:08] [Server thread/INFO]: Generating keypair
-[17:29:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:29:08] [Server thread/INFO]: Using default channel type
-[17:29:08] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[17:29:08] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:29:09] [Server thread/INFO]: [TabList] Loading server plugin TabList v5.7.3
-[17:29:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:29:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:29:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:29:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:29:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:29:09] [Server thread/INFO]: Preparing level "world"
-[17:29:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:29:10] [Server thread/INFO]: Time elapsed: 299 ms
-[17:29:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:29:10] [Server thread/INFO]: Time elapsed: 44 ms
-[17:29:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:29:10] [Server thread/INFO]: Time elapsed: 28 ms
-[17:29:10] [Server thread/INFO]: [TabList] Enabling TabList v5.7.3
-[17:29:10] [Server thread/INFO]: [TabList] > Enabled v5.7.3 (321ms)
-[17:29:10] [Server thread/INFO]: Running delayed init tasks
-[17:29:10] [Server thread/INFO]: Done (2.439s)! For help, type "help"
-[17:29:10] [Server thread/INFO]: Timings Reset
-[17:29:47] [User Authenticator #0/INFO]: UUID of player _main_py is 1675586e-f662-3fb4-b6a0-bd0e1801883c
-[17:29:47] [Server thread/INFO]: _main_py joined the game
-[17:29:47] [Server thread/INFO]: _main_py[/26.220.11.217:50702] logged in with entity id 108 at ([world]720.0726773376928, 63.0, -316.40766305780835)
-[17:30:03] [User Authenticator #0/INFO]: UUID of player RukasuDesu is 985ba8cc-7bd4-3008-a633-fea3e2d7c11a
-[17:30:03] [Server thread/INFO]: RukasuDesu joined the game
-[17:30:03] [Server thread/INFO]: RukasuDesu[/26.12.214.76:27086] logged in with entity id 713 at ([world]664.6999999880791, 63.0, -303.713655743429)
-[17:57:53] [Server thread/INFO]: Villager EntityVillager['Villager'/476, uuid='c872ca93-ead4-444e-9a40-2a7cd974c776', l='ServerLevel[world]', x=806.70, y=91.00, z=-211.41, cpos=[50, -14], tl=551265, v=true] died, message: 'Villager hit the ground too hard'
-[18:03:42] [Server thread/INFO]: Villager EntityVillager['Villager'/467, uuid='15552195-d259-4436-9443-9899b56ee728', l='ServerLevel[world]', x=826.66, y=89.00, z=-226.82, cpos=[51, -15], tl=605422, v=true] died, message: 'Villager hit the ground too hard'
-[18:14:22] [Server thread/INFO]: RukasuDesu fell from a high place
-[18:17:38] [Server thread/INFO]: Villager EntityVillager['Villager'/477, uuid='4f5f8ab6-b8e4-4666-b295-185e49bb62d8', l='ServerLevel[world]', x=764.70, y=77.00, z=-184.68, cpos=[47, -12], tl=446515, v=true] died, message: 'Villager hit the ground too hard'
-[18:26:31] [Server thread/INFO]: Villager EntityVillager['Villager'/7420, uuid='c6c64bfe-870e-4b9d-881e-08015d99249d', l='ServerLevel[world]', x=763.85, y=66.00, z=-188.50, cpos=[47, -12], tl=24223, v=true] died, message: 'Villager suffocated in a wall'
-[19:11:48] [Server thread/INFO]: RukasuDesu has made the advancement [Sticky Situation]
-[19:14:41] [Server thread/INFO]: RukasuDesu has made the advancement [Voluntary Exile]
-[19:22:23] [Server thread/INFO]: _main_py lost connection: Disconnected
-[19:22:23] [Server thread/INFO]: _main_py left the game
-[19:26:31] [User Authenticator #1/INFO]: UUID of player _main_py is 1675586e-f662-3fb4-b6a0-bd0e1801883c
-[19:26:31] [Server thread/INFO]: _main_py joined the game
-[19:26:31] [Server thread/INFO]: _main_py[/26.220.11.217:51525] logged in with entity id 26461 at ([world]643.5966318651725, 62.42326431125402, -493.58668815624003)
-[19:36:15] [Server thread/INFO]: _main_py has made the advancement [Wax Off]
-[19:44:01] [Async Chat Thread - #1/INFO]: [Not Secure] <RukasuDesu> hooked On a feeling
-[20:06:38] [Async Chat Thread - #2/INFO]: [Not Secure] <RukasuDesu> >///<
-[20:12:39] [Server thread/INFO]: Villager EntityVillager['Villager'/34353, uuid='02a9b249-36ab-49be-8c1c-a8c84e91ae72', l='ServerLevel[world]', x=763.85, y=66.00, z=-188.50, cpos=[47, -12], tl=24228, v=true] died, message: 'Villager suffocated in a wall'
-[20:41:33] [Server thread/INFO]: _main_py lost connection: Disconnected
-[20:41:33] [Server thread/INFO]: _main_py left the game
-[21:20:00] [User Authenticator #2/INFO]: UUID of player _main_py is 1675586e-f662-3fb4-b6a0-bd0e1801883c
-[21:20:00] [Server thread/INFO]: _main_py joined the game
-[21:20:00] [Server thread/INFO]: _main_py[/26.220.11.217:52090] logged in with entity id 51741 at ([world]633.158435352353, 69.0, -330.1176796948855)
-[21:39:14] [Server thread/INFO]: RukasuDesu lost connection: Disconnected
-[21:39:14] [Server thread/INFO]: RukasuDesu left the game
-[21:43:17] [User Authenticator #3/INFO]: UUID of player RukasuDesu is 985ba8cc-7bd4-3008-a633-fea3e2d7c11a
-[21:43:17] [Server thread/INFO]: RukasuDesu joined the game
-[21:43:17] [Server thread/INFO]: RukasuDesu[/26.12.214.76:44223] logged in with entity id 56596 at ([world]658.8363505680812, 63.0, -303.4338979794955)
-[22:28:30] [Server thread/INFO]: _main_py was shot by Skeleton
-[23:18:56] [Server thread/INFO]: _main_py lost connection: Disconnected
-[23:18:56] [Server thread/INFO]: _main_py left the game
+[13:09:43] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[13:09:43] [Server thread/INFO]: Default game type: SURVIVAL
+[13:09:43] [Server thread/INFO]: Generating keypair
+[13:09:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:09:44] [Server thread/INFO]: Using default channel type
+[13:09:44] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:09:44] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:09:44] [Server thread/INFO]: [TabList] Loading server plugin TabList v5.7.3
+[13:09:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:09:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:09:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:09:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:09:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:09:44] [Server thread/INFO]: Preparing level "world"
+[13:09:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:09:46] [Server thread/INFO]: Time elapsed: 397 ms
+[13:09:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:09:46] [Server thread/INFO]: Time elapsed: 52 ms
+[13:09:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:09:46] [Server thread/INFO]: Time elapsed: 41 ms
+[13:09:46] [Server thread/INFO]: [TabList] Enabling TabList v5.7.3
+[13:09:46] [Server thread/INFO]: [TabList] > Enabled v5.7.3 (430ms)
+[13:09:46] [Server thread/INFO]: Running delayed init tasks
+[13:09:46] [Server thread/INFO]: Done (3.688s)! For help, type "help"
+[13:09:46] [Server thread/INFO]: Timings Reset
+[13:13:52] [User Authenticator #0/INFO]: UUID of player RukasuDesu is 985ba8cc-7bd4-3008-a633-fea3e2d7c11a
+[13:13:52] [Server thread/INFO]: RukasuDesu joined the game
+[13:13:52] [Server thread/INFO]: RukasuDesu[/26.12.214.76:13486] logged in with entity id 105 at ([world]659.2231094574884, 63.0, -303.05248908780015)
+[13:14:53] [Async Chat Thread - #1/INFO]: [Not Secure] <RukasuDesu> acho q duplicou uns item
+[13:14:57] [Async Chat Thread - #1/INFO]: [Not Secure] <RukasuDesu> carvão e ferro
+[13:25:48] [Async Chat Thread - #2/INFO]: [Not Secure] <RukasuDesu> acho q teve item q sumiu tb dakjdask
+[14:25:45] [Server thread/INFO]: Villager EntityVillager['Villager'/389, uuid='85781c9c-38e8-4fd2-be7b-cf9db1eee4e6', l='ServerLevel[world]', x=805.90, y=80.00, z=-217.30, cpos=[50, -14], tl=848212, v=true] died, message: 'Villager hit the ground too hard'
+[14:49:46] [Server thread/INFO]: Villager EntityVillager['Villager'/17367, uuid='c92e3845-d2e1-45a3-99d8-b81dd1565884', l='ServerLevel[world]', x=806.70, y=80.00, z=-217.82, cpos=[50, -14], tl=949917, v=true] died, message: 'Villager hit the ground too hard'
+[15:01:34] [Server thread/INFO]: RukasuDesu was blown up by Creeper
+[15:44:27] [Server thread/INFO]: RukasuDesu lost connection: Timed out
+[15:44:27] [Server thread/INFO]: RukasuDesu left the game
+[15:44:52] [User Authenticator #1/INFO]: UUID of player RukasuDesu is 985ba8cc-7bd4-3008-a633-fea3e2d7c11a
+[15:44:52] [Server thread/INFO]: RukasuDesu joined the game
+[15:44:52] [Server thread/INFO]: RukasuDesu[/26.12.214.76:23062] logged in with entity id 30613 at ([world]648.8387635206668, 69.0, -319.34918147794986)
+[16:30:50] [User Authenticator #2/INFO]: UUID of player _main_py is 1675586e-f662-3fb4-b6a0-bd0e1801883c
+[16:30:50] [Server thread/INFO]: _main_py joined the game
+[16:30:50] [Server thread/INFO]: _main_py[/26.220.11.217:53585] logged in with entity id 39016 at ([world]721.6927182888375, 63.0, -314.9890517365276)
+[16:35:12] [Async Chat Thread - #5/INFO]: [Not Secure] <_main_py> dd
+[16:52:51] [Async Chat Thread - #7/INFO]: [Not Secure] <RukasuDesu> a
+[16:52:52] [Async Chat Thread - #6/INFO]: [Not Secure] <RukasuDesu> o
+[16:52:53] [Async Chat Thread - #7/INFO]: [Not Secure] <RukasuDesu> ok
+[16:54:02] [Server thread/INFO]: _main_py lost connection: Disconnected
+[16:54:02] [Server thread/INFO]: _main_py left the game
+[17:37:59] [User Authenticator #3/INFO]: UUID of player Thalitinhas is 3e7606ee-1834-3de9-b9cc-05d2f534c1ef
+[17:37:59] [Server thread/INFO]: Thalitinhas joined the game
+[17:37:59] [Server thread/INFO]: Thalitinhas[/26.19.47.157:61960] logged in with entity id 50637 at ([world]508.42203489317563, 65.0, -682.3244327094824)
+[17:37:59] [User Authenticator #3/INFO]: UUID of player _main_py is 1675586e-f662-3fb4-b6a0-bd0e1801883c
+[17:37:59] [Server thread/INFO]: _main_py joined the game
+[17:37:59] [Server thread/INFO]: _main_py[/26.220.11.217:53753] logged in with entity id 50639 at ([world]722.5488676533939, 70.0, -304.4018358480934)
+[17:38:25] [Async Chat Thread - #9/INFO]: [Not Secure] <Thalitinhas> pq saiu da call, puta?
+[17:47:31] [Server thread/INFO]: Thalitinhas has made the advancement [Cover Me with Diamonds]
+[17:59:36] [Server thread/INFO]: _main_py was impaled by Drowned
+[18:44:13] [Server thread/WARN]: Thalitinhas moved too quickly! 9.349726762776072,0.0,-4.065179854051053
+[19:10:16] [Server thread/INFO]: Villager EntityVillager['Villager'/43730, uuid='81ca03a0-6d91-41f8-8a1c-1e30e7fb0356', l='ServerLevel[world]', x=784.37, y=75.00, z=-202.82, cpos=[49, -13], tl=862713, v=true] died, message: 'Villager hit the ground too hard'
+[19:30:13] [Server thread/INFO]: Villager EntityVillager['Villager'/84240, uuid='495c8c84-a98f-4d7f-baf9-4dcdfd9e0dca', l='ServerLevel[world]', x=839.54, y=89.00, z=-233.61, cpos=[52, -15], tl=274220, v=true] died, message: 'Villager hit the ground too hard'
+[19:33:31] [Server thread/WARN]: Camel (vehicle of _main_py) moved wrongly! 0.3007781823073401
+[19:34:18] [Async Chat Thread - #11/INFO]: [Not Secure] <RukasuDesu> -1300 -4500
+[19:48:20] [Server thread/INFO]: Thalitinhas has made the advancement [The Parrots and the Bats]
+[19:56:09] [Server thread/INFO]: _main_py lost connection: Disconnected
+[19:56:09] [Server thread/INFO]: _main_py left the game
+[20:04:11] [User Authenticator #4/INFO]: UUID of player _main_py is 1675586e-f662-3fb4-b6a0-bd0e1801883c
+[20:04:11] [Server thread/INFO]: _main_py joined the game
+[20:04:11] [Server thread/INFO]: _main_py[/26.220.11.217:54838] logged in with entity id 102811 at ([world]725.5460157267406, 76.0, -283.2674101364274)
+[20:05:09] [Server thread/INFO]: RukasuDesu lost connection: Disconnected
+[20:05:09] [Server thread/INFO]: RukasuDesu left the game
+[20:07:23] [User Authenticator #5/INFO]: UUID of player RukasuDesu is 985ba8cc-7bd4-3008-a633-fea3e2d7c11a
+[20:07:23] [Server thread/INFO]: RukasuDesu joined the game
+[20:07:23] [Server thread/INFO]: RukasuDesu[/26.12.214.76:40439] logged in with entity id 104348 at ([world]738.6999999880791, 57.0, -306.30000001192093)
+[20:07:59] [Server thread/INFO]: RukasuDesu lost connection: Disconnected
+[20:07:59] [Server thread/INFO]: RukasuDesu left the game
+[20:10:15] [Server thread/INFO]: _main_py lost connection: Disconnected
+[20:10:15] [Server thread/INFO]: _main_py left the game
+[20:10:48] [User Authenticator #6/INFO]: UUID of player _main_py is 1675586e-f662-3fb4-b6a0-bd0e1801883c
+[20:10:48] [Server thread/INFO]: _main_py joined the game
+[20:10:48] [Server thread/INFO]: _main_py[/26.220.11.217:54905] logged in with entity id 105137 at ([world]612.0119526577371, 65.0, -326.06635822567017)
+[20:11:04] [Server thread/INFO]: _main_py lost connection: Disconnected
+[20:11:04] [Server thread/INFO]: _main_py left the game
+[20:11:35] [User Authenticator #6/INFO]: UUID of player _main_py is 1675586e-f662-3fb4-b6a0-bd0e1801883c
+[20:11:35] [Server thread/INFO]: _main_py joined the game
+[20:11:35] [Server thread/INFO]: _main_py[/26.220.11.217:54926] logged in with entity id 105382 at ([world]643.7638720546826, 67.0625, -331.88390671271776)
+[20:11:43] [User Authenticator #6/INFO]: UUID of player RukasuDesu is 985ba8cc-7bd4-3008-a633-fea3e2d7c11a
+[20:11:43] [Server thread/INFO]: RukasuDesu joined the game
+[20:11:43] [Server thread/INFO]: RukasuDesu[/26.12.214.76:40815] logged in with entity id 105451 at ([world]738.6999999880791, 57.0, -306.30000001192093)
+[20:15:19] [Server thread/INFO]: _main_py was slain by RukasuDesu
+[20:52:31] [Async Chat Thread - #13/INFO]: [Not Secure] <RukasuDesu> algm dorme
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -3.3904486816798,0.0,-20.11612767476913
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -3.4566853949622782,0.0,-20.510605230348233
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -3.5229214357094634,0.0,-20.905082905971085
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -3.589156871174964,0.0,-21.299560689633267
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -3.6553917618869036,0.0,-21.69403857053078
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -3.7216261623207174,0.0,-22.088516538940098
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -3.7878601215041954,0.0,-22.482994586110067
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -3.8540936835623825,0.0,-22.877472704164575
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -3.9203268882077964,0.0,-23.271950886015247
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -3.98655977118176,0.0,-23.666429125282434
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -4.0527923646513955,0.0,-24.060907416224495
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -4.11902469756717,0.0,-24.45538575367391
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -4.185256795984515,0.0,-24.849864132979974
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -4.252175967748258,0.0,-25.24422099000924
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -4.321013790612142,0.0,-25.63820438371249
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -4.392739107676448,0.0,-26.031577598274566
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -4.468100780147097,0.0,-26.424125402721984
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -4.547662382250792,0.0,-26.81565797838698
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -4.63183329720448,0.0,-27.206012393538913
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -4.720892869331465,0.0,-27.59505345744128
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -4.81501557568356,0.0,-27.982671926002922
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -4.914289829481277,0.0,-28.368783002348096
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -5.018727607228357,0.0,-28.75332703251422
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -5.128287205888228,0.0,-29.136263791135548
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -5.242882840906418,0.0,-29.51757095954065
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -5.362393177328386,0.0,-29.897242379786462
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -5.486665424076023,0.0,-30.27528777223847
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -5.6155293983869115,0.0,-30.651727444801395
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -5.7487996077097705,0.0,-31.02659202765153
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -5.886283996570796,0.0,-31.39991880350385
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -6.027781393528699,0.0,-31.771753247729976
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -6.1730860903198845,0.0,-32.14214699464753
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -6.321995327026457,0.0,-32.511154144535794
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -6.474309118313158,0.0,-32.87883127780958
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -6.629830093315832,0.0,-33.24523743797374
+[21:22:51] [Server thread/WARN]: Boat (vehicle of Thalitinhas) moved too quickly! -6.7883667322419114,0.0,-33.61043231324152
+[21:23:28] [Server thread/WARN]: Thalitinhas was kicked due to keepalive timeout!
+[21:23:28] [Server thread/INFO]: Thalitinhas lost connection: Timed out
+[21:23:28] [Server thread/INFO]: Thalitinhas left the game
+[21:52:56] [Server thread/INFO]: Villager EntityVillager['Villager'/117980, uuid='09019261-a0b7-4eaa-ac8f-5248f0b968af', l='ServerLevel[world]', x=815.59, y=80.00, z=-224.66, cpos=[50, -15], tl=1381933, v=true] died, message: 'Villager hit the ground too hard'
+[22:07:01] [Server thread/INFO]: Villager EntityVillager['Villager'/85718, uuid='76aaae7e-9d7c-4a15-adb0-ec032788827c', l='ServerLevel[world]', x=803.11, y=74.00, z=-219.49, cpos=[50, -14], tl=842690, v=true] died, message: 'Villager hit the ground too hard'
+[22:29:22] [Server thread/INFO]: _main_py lost connection: Disconnected
+[22:29:22] [Server thread/INFO]: _main_py left the game
+[22:29:31] [Server thread/INFO]: RukasuDesu lost connection: Disconnected
+[22:29:31] [Server thread/INFO]: RukasuDesu left the game
+[22:29:31] [Server thread/INFO]: Stopping server
+[22:29:31] [Server thread/INFO]: [TabList] Disabling TabList v5.7.3
+[22:29:31] [Server thread/INFO]: Saving players
+[22:29:31] [Server thread/INFO]: Saving worlds
+[22:29:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:29:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:29:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:29:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:29:31] [Server thread/INFO]: [ChunkHolderManager] Saved 26 block chunks, 532 entity chunks, 4 poi chunks in world 'world' in 0,12s
+[22:29:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:29:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:29:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:29:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:29:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:29:31] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 95 entity chunks, 0 poi chunks in world 'world_nether' in 0,16s
+[22:29:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:29:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:29:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:29:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:29:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:29:32] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
+[22:29:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:29:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:29:32] [Server thread/INFO]: Flushing Chunk IO
+[22:29:32] [Server thread/INFO]: Closing Thread Pool
+[22:29:32] [Server thread/INFO]: Closing Server

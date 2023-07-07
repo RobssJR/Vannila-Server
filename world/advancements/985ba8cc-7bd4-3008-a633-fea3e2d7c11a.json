@@ -27,6 +27,7 @@
       "minecraft:stony_shore": "2023-06-25 22:28:33 -0300",
       "minecraft:snowy_plains": "2023-06-28 22:07:07 -0300",
       "minecraft:snowy_taiga": "2023-06-28 22:10:29 -0300",
+      "minecraft:dripstone_caves": "2023-07-06 21:04:20 -0300",
       "minecraft:cold_ocean": "2023-06-28 22:06:16 -0300",
       "minecraft:forest": "2023-06-25 22:30:26 -0300",
       "minecraft:frozen_ocean": "2023-06-29 21:16:58 -0300",
@@ -200,8 +201,10 @@
       "minecraft:piglin_brute": "2023-07-02 23:13:05 -0300",
       "minecraft:creeper": "2023-06-28 20:12:28 -0300",
       "minecraft:phantom": "2023-07-01 14:29:48 -0300",
+      "minecraft:zombified_piglin": "2023-07-06 20:36:07 -0300",
       "minecraft:wither_skeleton": "2023-07-02 20:46:12 -0300",
       "minecraft:husk": "2023-06-29 19:49:36 -0300",
+      "minecraft:cave_spider": "2023-07-06 20:56:17 -0300",
       "minecraft:piglin": "2023-07-01 12:50:00 -0300",
       "minecraft:enderman": "2023-07-01 23:08:21 -0300",
       "minecraft:zombie": "2023-06-25 22:20:40 -0300",
@@ -4398,9 +4401,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_light_blue_wool": {
+  "minecraft:recipes/building_blocks/bamboo_planks": {
     "criteria": {
-      "has_needed_dye": "2023-07-05 23:37:10 -0300"
+      "has_logs": "2023-07-05 22:50:37 -0300"
     },
     "done": true
   },
@@ -4410,9 +4413,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/brown_dye": {
+  "minecraft:recipes/building_blocks/dye_light_blue_wool": {
     "criteria": {
-      "has_cocoa_beans": "2023-07-05 23:39:47 -0300"
+      "has_needed_dye": "2023-07-05 23:37:10 -0300"
     },
     "done": true
   },
@@ -4422,27 +4425,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/yellow_candle": {
-    "criteria": {
-      "has_yellow_dye": "2023-07-05 23:37:11 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_light_blue_carpet": {
     "criteria": {
       "has_needed_dye": "2023-07-05 23:37:10 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_yellow_carpet": {
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
     "criteria": {
-      "has_needed_dye": "2023-07-05 23:37:11 -0300"
+      "has_light_blue_dye": "2023-07-05 23:37:10 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bamboo_planks": {
+  "minecraft:recipes/decorations/light_blue_candle": {
     "criteria": {
-      "has_logs": "2023-07-05 22:50:37 -0300"
+      "has_light_blue_dye": "2023-07-05 23:37:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_candle": {
+    "criteria": {
+      "has_yellow_dye": "2023-07-05 23:37:11 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2023-07-05 23:37:11 -0300"
     },
     "done": true
   },
@@ -4458,27 +4467,123 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cookie": {
-    "criteria": {
-      "has_cocoa": "2023-07-05 23:39:47 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_light_blue_dye": "2023-07-05 23:37:10 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_yellow_bed": {
     "criteria": {
       "has_needed_dye": "2023-07-05 23:37:11 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_candle": {
+  "minecraft:recipes/misc/brown_dye": {
     "criteria": {
-      "has_light_blue_dye": "2023-07-05 23:37:10 -0300"
+      "has_cocoa_beans": "2023-07-05 23:39:47 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2023-07-05 23:39:47 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2023-07-06 13:15:09 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_copper": {
+    "criteria": {
+      "has_raw_copper_block": "2023-07-06 13:15:13 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2023-07-06 13:15:16 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2023-07-06 13:15:20 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2023-07-06 13:15:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2023-07-06 13:15:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_mosaic": {
+    "criteria": {
+      "has_bamboo_slab": "2023-07-06 13:23:28 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2023-07-06 13:23:28 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_honeycomb": {
+    "criteria": {
+      "has_cut_copper_stairs": "2023-07-06 13:24:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2023-07-06 13:28:02 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2023-07-06 13:28:02 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2023-07-06 13:47:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2023-07-06 13:47:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2023-07-06 14:31:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2023-07-06 14:34:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2023-07-06 20:54:12 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2023-07-06 21:15:44 -0300"
     },
     "done": true
   },
