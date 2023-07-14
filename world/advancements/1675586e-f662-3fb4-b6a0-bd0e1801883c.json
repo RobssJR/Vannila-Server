@@ -7,17 +7,24 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2023-07-08 15:02:39 -0300",
+      "minecraft:taiga": "2023-07-08 15:01:10 -0300",
+      "minecraft:deep_ocean": "2023-07-08 15:08:03 -0300",
+      "minecraft:birch_forest": "2023-07-08 14:57:40 -0300",
       "minecraft:wooded_badlands": "2023-06-25 22:18:56 -0300",
       "minecraft:beach": "2023-06-28 19:49:57 -0300",
       "minecraft:sparse_jungle": "2023-06-25 22:21:35 -0300",
       "minecraft:river": "2023-06-25 22:19:15 -0300",
       "minecraft:lukewarm_ocean": "2023-07-01 12:35:06 -0300",
       "minecraft:stony_shore": "2023-06-25 22:17:40 -0300",
+      "minecraft:cold_ocean": "2023-07-08 15:06:05 -0300",
       "minecraft:forest": "2023-06-25 22:36:13 -0300",
+      "minecraft:lush_caves": "2023-07-08 16:28:52 -0300",
       "minecraft:desert": "2023-06-25 22:15:58 -0300",
       "minecraft:jungle": "2023-06-25 22:28:16 -0300",
       "minecraft:ocean": "2023-07-06 20:41:23 -0300",
       "minecraft:warm_ocean": "2023-07-06 19:15:44 -0300",
+      "minecraft:old_growth_birch_forest": "2023-07-08 14:57:56 -0300",
       "minecraft:deep_dark": "2023-07-07 18:09:16 -0300",
       "minecraft:savanna": "2023-07-01 20:44:29 -0300",
       "minecraft:plains": "2023-06-25 22:36:28 -0300"
@@ -3538,15 +3545,81 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2023-07-08 00:00:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/conduit": {
     "criteria": {
       "has_nautilus_shell": "2023-07-08 00:03:59 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/misc/slime_ball": {
+  "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
-      "has_slime_block": "2023-07-08 00:00:06 -0300"
+      "has_melon": "2023-07-08 12:15:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2023-07-08 12:13:36 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2023-07-08 12:15:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2023-07-08 16:34:56 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2023-07-08 16:34:56 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2023-07-08 15:03:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2023-07-08 12:15:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2023-07-08 17:02:56 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2023-07-08 15:03:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2023-07-08 12:13:36 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2023-07-08 12:13:36 -0300"
     },
     "done": true
   },
