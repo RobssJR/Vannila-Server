@@ -41,6 +41,7 @@
       "minecraft:snowy_beach": "2023-06-28 22:07:03 -0300",
       "minecraft:windswept_savanna": "2023-07-01 01:30:37 -0300",
       "minecraft:warm_ocean": "2023-06-28 22:41:58 -0300",
+      "minecraft:deep_lukewarm_ocean": "2023-07-15 13:03:26 -0300",
       "minecraft:old_growth_birch_forest": "2023-06-28 22:28:39 -0300",
       "minecraft:deep_dark": "2023-07-04 21:37:28 -0300",
       "minecraft:meadow": "2023-06-29 21:29:14 -0300",
@@ -4630,15 +4631,87 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2023-07-08 16:48:38 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dripstone_block": {
     "criteria": {
       "has_pointed_dripstone": "2023-07-08 16:56:46 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/misc/pink_dye_from_peony": {
+  "8bm:8bm.invis_itemframes": {
     "criteria": {
-      "has_peony": "2023-07-08 16:48:38 -0300"
+      "Version 2.2.1": "2023-07-15 12:06:12 -0300"
+    },
+    "done": true
+  },
+  "8bm:global/8bm.root": {
+    "criteria": {
+      "tick": "2023-07-15 12:06:12 -0300"
+    },
+    "done": true
+  },
+  "8bm:global/triggers/8bm.adv_on": {
+    "criteria": {
+      "tick": "2023-07-15 12:06:12 -0300"
+    },
+    "done": true
+  },
+  "global:the8bitmonkey": {
+    "criteria": {
+      "trigger": "2023-07-15 12:06:12 -0300"
+    },
+    "done": true
+  },
+  "global:root": {
+    "criteria": {
+      "trigger": "2023-07-15 12:06:12 -0300"
+    },
+    "done": true
+  },
+  "8bm:invis_itemframes": {
+    "criteria": {
+      "requirement": "2023-07-15 12:06:12 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2023-07-15 12:44:59 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2023-07-15 12:44:59 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_sandstone": "2023-07-15 12:44:59 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
+    "criteria": {
+      "has_smooth_sandstone": "2023-07-15 12:44:59 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template": {
+    "criteria": {
+      "has_dune_armor_trim_smithing_template": "2023-07-15 13:06:54 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2023-07-15 13:06:54 -0300"
     },
     "done": true
   },
