@@ -1,144 +1,68 @@
-[11:07:44] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:07:47] [ServerMain/INFO]: Loaded 7 recipes
-[11:07:47] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[11:07:47] [Server thread/INFO]: Loading properties
-[11:07:47] [Server thread/INFO]: This server is running Paper version git-Paper-47 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: aea9cdd)
-[11:07:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:07:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:07:48] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[20:47:48] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:47:48] [ServerMain/INFO]: Found new data pack file/invisibleitemframes-v2-2-1.zip, loading it automatically
+[20:47:51] [ServerMain/INFO]: Loaded 7 recipes
+[20:47:51] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:47:51] [Server thread/INFO]: Loading properties
+[20:47:51] [Server thread/INFO]: This server is running Paper version git-Paper-47 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: aea9cdd)
+[20:47:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:47:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:47:52] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[11:07:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
-[11:07:48] [Server thread/INFO]: Default game type: SURVIVAL
-[11:07:48] [Server thread/INFO]: Generating keypair
-[11:07:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:07:48] [Server thread/INFO]: Using default channel type
-[11:07:48] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[11:07:48] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[11:07:49] [Server thread/INFO]: [TabList] Loading server plugin TabList v5.7.3
-[11:07:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:07:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:07:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:07:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:07:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:07:49] [Server thread/INFO]: Preparing level "world"
-[11:07:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:07:50] [Server thread/INFO]: Time elapsed: 518 ms
-[11:07:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:07:50] [Server thread/INFO]: Time elapsed: 35 ms
-[11:07:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:07:50] [Server thread/INFO]: Time elapsed: 39 ms
-[11:07:50] [Server thread/INFO]: [TabList] Enabling TabList v5.7.3
-[11:07:51] [Server thread/INFO]: [TabList] > Enabled v5.7.3 (363ms)
-[11:07:51] [Server thread/INFO]: Running delayed init tasks
-[11:07:51] [Server thread/INFO]: Done (3.606s)! For help, type "help"
-[11:07:51] [Server thread/INFO]: Timings Reset
-[11:11:50] [User Authenticator #0/INFO]: UUID of player _main_py is 1675586e-f662-3fb4-b6a0-bd0e1801883c
-[11:11:50] [Server thread/INFO]: _main_py joined the game
-[11:11:50] [Server thread/INFO]: _main_py[/26.220.11.217:55082] logged in with entity id 119 at ([world]678.7057934350835, 63.0, -318.30000001192093)
-[11:11:53] [User Authenticator #0/INFO]: UUID of player RukasuDesu is 985ba8cc-7bd4-3008-a633-fea3e2d7c11a
-[11:11:54] [Server thread/INFO]: RukasuDesu joined the game
-[11:11:54] [Server thread/INFO]: RukasuDesu[/26.12.214.76:3925] logged in with entity id 532 at ([world]715.8760076198569, 63.0, -316.049971274401)
-[11:12:48] [Server thread/INFO]: _main_py lost connection: Disconnected
-[11:12:49] [Server thread/INFO]: _main_py left the game
-[11:15:21] [Server thread/INFO]: RukasuDesu lost connection: Disconnected
-[11:15:21] [Server thread/INFO]: RukasuDesu left the game
-[11:17:28] [User Authenticator #1/INFO]: UUID of player _main_py is 1675586e-f662-3fb4-b6a0-bd0e1801883c
-[11:17:29] [Server thread/INFO]: _main_py joined the game
-[11:17:29] [Server thread/INFO]: _main_py[/26.220.11.217:55169] logged in with entity id 1436 at ([world]726.4309152946896, 63.0, -313.0656626880507)
-[11:18:09] [User Authenticator #1/INFO]: UUID of player Thalitinhas is 3e7606ee-1834-3de9-b9cc-05d2f534c1ef
-[11:18:09] [Server thread/INFO]: Thalitinhas joined the game
-[11:18:09] [Server thread/INFO]: Thalitinhas[/26.19.47.157:63716] logged in with entity id 2163 at ([world]525.8769877357082, 63.08576431274413, -673.3125)
-[11:18:29] [User Authenticator #1/INFO]: UUID of player RukasuDesu is 985ba8cc-7bd4-3008-a633-fea3e2d7c11a
-[11:18:29] [Server thread/INFO]: RukasuDesu joined the game
-[11:18:29] [Server thread/INFO]: RukasuDesu[/26.12.214.76:4207] logged in with entity id 2454 at ([world]704.2872856069804, 63.0, -321.03211612937037)
-[11:18:39] [Server thread/INFO]: Thalitinhas lost connection: Disconnected
-[11:18:39] [Server thread/INFO]: Thalitinhas left the game
-[11:19:10] [User Authenticator #1/INFO]: UUID of player Thalitinhas is 3e7606ee-1834-3de9-b9cc-05d2f534c1ef
-[11:19:10] [Server thread/INFO]: Thalitinhas joined the game
-[11:19:10] [Server thread/INFO]: Thalitinhas[/26.19.47.157:63717] logged in with entity id 2571 at ([world]525.8769877357082, 63.08576431274413, -673.3125)
-[11:25:42] [Server thread/INFO]: _main_py was slain by Thalitinhas
-[11:32:14] [Server thread/INFO]: Villager EntityVillager['Villager'/1715, uuid='f8566e23-d556-4fdb-9578-e65bab81b0ff', l='ServerLevel[world]', x=763.85, y=66.00, z=-188.50, cpos=[47, -12], tl=24226, v=true] died, message: 'Villager suffocated in a wall'
-[11:33:37] [Server thread/INFO]: Thalitinhas was blown up by Creeper
-[11:37:15] [Server thread/INFO]: Villager EntityVillager['Farmer'/1771, uuid='d31c7087-f561-4e89-a5f4-f5b258b92116', l='ServerLevel[world]', x=784.37, y=62.48, z=-219.72, cpos=[49, -14], tl=485756, v=true] died, message: 'Farmer was impaled by Drowned'
-[11:37:19] [Server thread/INFO]: Villager EntityVillager['Villager'/1721, uuid='a8fc672b-f3d2-4b61-a63b-f326f17cc8e5', l='ServerLevel[world]', x=780.38, y=61.83, z=-217.71, cpos=[48, -14], tl=1019989, v=true] died, message: 'Villager was impaled by Drowned'
-[11:37:26] [Server thread/INFO]: Villager EntityVillager['Villager'/1633, uuid='de2abe5c-45c1-40fe-9199-1fbd9da88b30', l='ServerLevel[world]', x=790.57, y=62.33, z=-220.33, cpos=[49, -14], tl=1632683, v=true] died, message: 'Villager was impaled by Drowned'
-[11:37:34] [Server thread/INFO]: Villager EntityVillager['Villager'/1719, uuid='4d9b166a-bb0d-47c4-88e0-0a26c19c9a6e', l='ServerLevel[world]', x=786.41, y=62.51, z=-220.22, cpos=[49, -14], tl=497796, v=true] died, message: 'Villager was impaled by Drowned'
-[11:37:52] [Server thread/INFO]: Villager EntityVillager['Villager'/1720, uuid='20622ee5-f069-488e-87c9-628213f9263e', l='ServerLevel[world]', x=796.70, y=61.86, z=-225.78, cpos=[49, -15], tl=367389, v=true] died, message: 'Villager was impaled by Drowned'
-[11:37:56] [Server thread/INFO]: Villager EntityVillager['Villager'/1631, uuid='1cf207df-63ab-42b6-9ff4-8ddfb8d5af78', l='ServerLevel[world]', x=796.10, y=62.27, z=-226.16, cpos=[49, -15], tl=68231, v=true] died, message: 'Villager was impaled by Drowned'
-[11:37:57] [Server thread/INFO]: Villager EntityVillager['Villager'/1632, uuid='acc5ed21-3f3f-4fa6-b257-3b30035e70cb', l='ServerLevel[world]', x=795.69, y=62.48, z=-225.14, cpos=[49, -15], tl=387666, v=true] died, message: 'Villager was slain by Zombie Villager'
-[11:38:03] [Server thread/INFO]: Villager EntityVillager['Villager'/1718, uuid='913bc3f7-abc6-43f1-9aaa-ad2d9a74115e', l='ServerLevel[world]', x=792.93, y=61.55, z=-217.30, cpos=[49, -14], tl=350460, v=true] died, message: 'Villager was impaled by Drowned'
-[11:38:10] [Server thread/INFO]: Villager EntityVillager['Villager'/1716, uuid='ad0f9817-5d4c-4fa3-9e07-8f8399a36527', l='ServerLevel[world]', x=790.70, y=61.55, z=-216.30, cpos=[49, -14], tl=530940, v=true] died, message: 'Villager was impaled by Drowned'
-[11:38:10] [Server thread/INFO]: Villager EntityVillager['Villager'/1717, uuid='ae353e7f-68f6-45b0-a8ee-75336cd39818', l='ServerLevel[world]', x=789.66, y=61.55, z=-216.30, cpos=[49, -14], tl=415629, v=true] died, message: 'Villager was slain by Zombie Villager'
-[11:38:16] [Server thread/INFO]: Villager EntityVillager['Villager'/1722, uuid='96c88857-4ad3-4e90-8202-868a2c4d3344', l='ServerLevel[world]', x=796.84, y=61.55, z=-221.24, cpos=[49, -14], tl=44255, v=true] died, message: 'Villager was impaled by Drowned'
-[11:38:23] [Server thread/INFO]: Villager EntityVillager['Villager'/1679, uuid='d3d6e480-71de-4254-b4cb-b67632e4e4a7', l='ServerLevel[world]', x=808.40, y=62.52, z=-235.14, cpos=[50, -15], tl=1166950, v=true] died, message: 'Villager was impaled by Drowned'
-[11:38:26] [Server thread/INFO]: Villager EntityVillager['Villager'/1675, uuid='4e558001-bcce-4848-8614-b954324ddd90', l='ServerLevel[world]', x=805.88, y=62.52, z=-231.78, cpos=[50, -15], tl=1072528, v=true] died, message: 'Villager was impaled by Drowned'
-[11:38:32] [Server thread/INFO]: Villager EntityVillager['Villager'/1678, uuid='60bdcfe4-ccdf-4b26-b579-fe67b4a3cabb', l='ServerLevel[world]', x=806.46, y=62.52, z=-233.70, cpos=[50, -15], tl=1836895, v=true] died, message: 'Villager was impaled by Drowned'
-[11:38:38] [Server thread/INFO]: Villager EntityVillager['Villager'/1682, uuid='c24822c3-6ca5-4c64-9c62-3f52d56592a4', l='ServerLevel[world]', x=806.70, y=63.11, z=-232.03, cpos=[50, -15], tl=864235, v=true] died, message: 'Villager was impaled by Drowned'
-[11:38:39] [Server thread/INFO]: Villager EntityVillager['Villager'/1680, uuid='92a977b2-3277-45d0-bd8e-d38944d26c99', l='ServerLevel[world]', x=805.92, y=62.51, z=-232.26, cpos=[50, -15], tl=1683643, v=true] died, message: 'Villager was slain by Zombie Villager'
-[11:44:47] [Server thread/INFO]: Thalitinhas has made the advancement [Diamonds!]
-[11:48:28] [Async Chat Thread - #1/INFO]: [Not Secure] <RukasuDesu> 1200 400
-[11:52:51] [Server thread/INFO]: Thalitinhas has made the advancement [Not Today, Thank You]
-[11:55:23] [Server thread/INFO]: Thalitinhas fell from a high place
-[12:11:45] [Async Chat Thread - #4/INFO]: [Not Secure] <Thalitinhas> 612, 1741
-[12:33:45] [Server thread/INFO]: Thalitinhas has made the advancement [What a Deal!]
-[12:48:27] [Async Chat Thread - #5/INFO]: [Not Secure] <RukasuDesu> disable-move-event: true
-[13:30:42] [Server thread/INFO]: Thalitinhas lost connection: Disconnected
-[13:30:42] [Server thread/INFO]: Thalitinhas left the game
-[13:53:41] [Server thread/INFO]: _main_py was shot by Skeleton
-[14:14:52] [Async Chat Thread - #8/INFO]: [Not Secure] <_main_py> 1800 -1000
-[14:19:51] [Server thread/INFO]: Villager EntityVillager['Villager'/1853, uuid='b68b76c5-47bd-4d70-9209-a32117f53237', l='ServerLevel[world]', x=812.41, y=83.00, z=-223.24, cpos=[50, -14], tl=2155375, v=true] died, message: 'Villager hit the ground too hard'
-[14:24:10] [Server thread/INFO]: _main_py was impaled by Drowned
-[14:24:44] [Server thread/INFO]: _main_py was impaled by Drowned
-[14:24:50] [Server thread/INFO]: RukasuDesu was impaled by Drowned
-[14:25:19] [Server thread/INFO]: _main_py was impaled by Drowned
-[14:33:45] [Server thread/INFO]: RukasuDesu issued server command: /seed
-[14:36:17] [Async Chat Thread - #9/INFO]: [Not Secure] <RukasuDesu> 905 -535
-[14:45:27] [Async Chat Thread - #11/INFO]: [Not Secure] <RukasuDesu> Conto da princesa kaguya
-[15:08:25] [Async Chat Thread - #14/INFO]: [Not Secure] <RukasuDesu> 700 -250
-[15:27:34] [Server thread/INFO]: Villager EntityVillager['Villager'/1676, uuid='469afc2c-de28-41fd-ad8d-c82b41f6bdd0', l='ServerLevel[world]', x=754.21, y=66.50, z=-255.53, cpos=[47, -16], tl=1510081, v=true] died, message: 'Villager was slain by Zombie'
-[15:27:46] [Server thread/INFO]: Villager EntityVillager['Farmer'/109997, uuid='2623bccc-f2c3-479c-8cce-b85acc36db65', l='ServerLevel[world]', x=761.49, y=68.00, z=-259.62, cpos=[47, -17], tl=75215, v=true] died, message: 'Farmer was slain by Zombie Villager'
-[15:27:49] [Server thread/INFO]: Villager EntityVillager['Farmer'/111151, uuid='9711cce0-e6c6-42ad-ac20-fc237b0a194b', l='ServerLevel[world]', x=763.51, y=68.00, z=-259.62, cpos=[47, -17], tl=73739, v=true] died, message: 'Farmer was slain by Zombie'
-[15:27:53] [Server thread/INFO]: Villager EntityVillager['Farmer'/110024, uuid='ca7ba7ef-1114-4c5f-b1ce-49494709d980', l='ServerLevel[world]', x=762.51, y=68.00, z=-259.62, cpos=[47, -17], tl=75290, v=true] died, message: 'Farmer was slain by Zombie Villager'
-[15:27:55] [Server thread/INFO]: Villager EntityVillager['Farmer'/111337, uuid='614b8844-20b6-4db8-ab56-0df4e5489244', l='ServerLevel[world]', x=764.51, y=68.00, z=-259.62, cpos=[47, -17], tl=73290, v=true] died, message: 'Farmer was slain by Zombie Villager'
-[15:27:56] [Server thread/INFO]: Villager EntityVillager['Farmer'/110949, uuid='61da0979-9021-44f6-861b-3b4b973126e2', l='ServerLevel[world]', x=765.51, y=68.00, z=-259.62, cpos=[47, -17], tl=74323, v=true] died, message: 'Farmer was slain by Zombie'
-[16:10:07] [Async Chat Thread - #16/INFO]: [Not Secure] <RukasuDesu> LECTERN
-[16:12:30] [Async Chat Thread - #17/INFO]: [Not Secure] <RukasuDesu> 446 -258
-[16:37:39] [Server thread/INFO]: RukasuDesu lost connection: Timed out
-[16:37:39] [Server thread/INFO]: RukasuDesu left the game
-[16:38:40] [User Authenticator #2/INFO]: UUID of player RukasuDesu is 985ba8cc-7bd4-3008-a633-fea3e2d7c11a
-[16:38:41] [Server thread/INFO]: RukasuDesu joined the game
-[16:38:41] [Server thread/INFO]: RukasuDesu[/26.12.214.76:16455] logged in with entity id 156600 at ([world]613.908155982626, 65.0, -322.8124387158561)
-[16:40:40] [Async Chat Thread - #20/INFO]: [Not Secure] <RukasuDesu> R$130,00
-[16:47:55] [Server thread/INFO]: _main_py was shot by Skeleton
-[16:55:13] [Async Chat Thread - #22/INFO]: [Not Secure] <RukasuDesu> In Java Edition, baked potatoes can also be obtained by killing a zombie or one of its variants while it is on fire. The drop chance is still affected by Looting.
-[17:27:53] [Server thread/INFO]: RukasuDesu lost connection: Disconnected
-[17:27:53] [Server thread/INFO]: RukasuDesu left the game
-[17:40:32] [Server thread/INFO]: _main_py lost connection: Disconnected
-[17:40:32] [Server thread/INFO]: _main_py left the game
-[17:40:40] [Server thread/INFO]: Stopping server
-[17:40:40] [Server thread/INFO]: [TabList] Disabling TabList v5.7.3
-[17:40:40] [Server thread/INFO]: Saving players
-[17:40:40] [Server thread/INFO]: Saving worlds
-[17:40:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:40:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:40:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:40:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:40:40] [Server thread/INFO]: [ChunkHolderManager] Saved 13 block chunks, 275 entity chunks, 0 poi chunks in world 'world' in 0,04s
-[17:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:40:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:40:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:40:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:40:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:40:40] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 69 entity chunks, 0 poi chunks in world 'world_nether' in 0,01s
-[17:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:40:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:40:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:40:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:40:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:40:40] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
-[17:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:40:40] [Server thread/INFO]: Flushing Chunk IO
-[17:40:40] [Server thread/INFO]: Closing Thread Pool
-[17:40:40] [Server thread/INFO]: Closing Server
+[20:47:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[20:47:52] [Server thread/INFO]: Default game type: SURVIVAL
+[20:47:52] [Server thread/INFO]: Generating keypair
+[20:47:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:47:52] [Server thread/INFO]: Using default channel type
+[20:47:52] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:47:52] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:47:53] [Server thread/INFO]: [TabList] Loading server plugin TabList v5.7.3
+[20:47:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:47:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:47:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:47:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:47:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:47:53] [Server thread/INFO]: Preparing level "world"
+[20:47:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:47:54] [Server thread/INFO]: Time elapsed: 449 ms
+[20:47:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:47:54] [Server thread/INFO]: Time elapsed: 109 ms
+[20:47:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:47:54] [Server thread/INFO]: Time elapsed: 23 ms
+[20:47:54] [Server thread/INFO]: [TabList] Enabling TabList v5.7.3
+[20:47:55] [Server thread/INFO]: [TabList] > Enabled v5.7.3 (391ms)
+[20:47:55] [Server thread/INFO]: Running delayed init tasks
+[20:47:55] [Server thread/INFO]: Done (3.683s)! For help, type "help"
+[20:47:55] [Server thread/INFO]: Timings Reset
+[20:49:55] [User Authenticator #0/INFO]: UUID of player _main_py is 1675586e-f662-3fb4-b6a0-bd0e1801883c
+[20:49:55] [Server thread/INFO]: _main_py joined the game
+[20:49:56] [Server thread/INFO]: _main_py[/26.220.11.217:50638] logged in with entity id 122 at ([world]429.6602233180805, 70.0, -262.4472157676461)
+[21:11:34] [Server thread/INFO]: _main_py has made the advancement [Ninja Item Frames]
+[21:15:29] [Server thread/INFO]: _main_py lost connection: Disconnected
+[21:15:29] [Server thread/INFO]: _main_py left the game
+[21:15:31] [Server thread/INFO]: Stopping server
+[21:15:31] [Server thread/INFO]: [TabList] Disabling TabList v5.7.3
+[21:15:31] [Server thread/INFO]: Saving players
+[21:15:31] [Server thread/INFO]: Saving worlds
+[21:15:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:15:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:15:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:15:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:15:31] [Server thread/INFO]: [ChunkHolderManager] Saved 9 block chunks, 180 entity chunks, 0 poi chunks in world 'world' in 0,03s
+[21:15:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:15:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:15:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:15:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:15:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:15:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 66 entity chunks, 0 poi chunks in world 'world_nether' in 0,01s
+[21:15:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:15:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:15:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:15:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:15:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:15:31] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
+[21:15:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:15:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:15:31] [Server thread/INFO]: Flushing Chunk IO
+[21:15:31] [Server thread/INFO]: Closing Thread Pool
+[21:15:31] [Server thread/INFO]: Closing Server
