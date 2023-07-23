@@ -4256,12 +4256,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_honeycomb": {
-    "criteria": {
-      "has_oxidized_cut_copper_stairs": "2023-07-19 20:11:27 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/jungle_slab": {
     "criteria": {
       "has_planks": "2023-07-19 20:06:25 -0300"
@@ -4277,6 +4271,12 @@
   "minecraft:recipes/redstone/jungle_fence_gate": {
     "criteria": {
       "has_planks": "2023-07-19 20:06:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_cut_copper_stairs": "2023-07-19 20:11:27 -0300"
     },
     "done": true
   },
